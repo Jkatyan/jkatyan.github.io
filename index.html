@@ -1,0 +1,205 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Jay Katyan</title>
+
+  <meta name="author" content="Jay Katyan">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" href="/images/favicon/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+  <script type="text/javascript" src="js/hidebib.js"></script>
+
+  <!-- CONTACT LINKS -->
+  <script>
+    function insertContactLinks() {
+      // <a href="data/main_page/Katyan_Jay_Resume.pdf">CV</a>  / 
+      var content = `
+        <p style="text-align:center">
+          <a href="mailto:jkatyan@upenn.edu">Email</a>  / 
+          <a href="https://www.linkedin.com/in/jkatyan/">Linkedin</a>  / 
+          <a href="https://github.com/jkatyan/">Github</a>
+        </p>
+      `;
+      document.getElementById('contact-links-desktop').innerHTML = content;
+      document.getElementById('contact-links-mobile').innerHTML = content;
+    }
+    document.addEventListener('DOMContentLoaded', insertContactLinks);
+  </script>
+</head>
+
+<!-- BIO and IMAGE -->
+<body>
+  <table style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+    <tbody>
+      <tr style="padding:0px">
+        <td style="padding:0px">
+          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+            <tbody>
+              <tr style="padding:0px">
+                <td class="bio" style="padding:2.5%;width:63%;vertical-align:middle">
+                  <p class="name" style="text-align: center;">
+                    Jay Katyan
+                  </p>
+                  <p style="text-align: left;">
+                    I am a first-year M.S. student in Robotics at the <a href="https://www.grasp.upenn.edu/">GRASP Lab</a> at the <a href="https://www.upenn.edu/">University of Pennsylvania</a>. I'm broadly interested in machine learning and robotics, and I hope to build intelligent agents that can generalize to a wide range of real-world scenarios.
+                  </p>
+
+                  <p style="text-align: left;">
+                    Previously, I received my B.S. in Computer Science from <a href="https://vt.edu/">Virginia Tech</a>. As an undergraduate, I was a research assistant at the <a href="https://sanghani.cs.vt.edu/">Sanghani Center for Artificial Intelligence and Data Analytics</a>, where I was advised by <a href="https://people.cs.vt.edu/naren/">Naren Ramakrishnan</a>. After graduating, I spent some time working on computer vision techniques for monocular dense reconstruction at <a href="https://www.mathworks.com/">MathWorks</a>.
+                  </p>
+
+                  <p style="text-align: left;">
+                    I am currently seeking research and internship opportunities in computer vision, machine learning, human-robot interaction, and robotics. Feel free to reach out to me at <a href="mailto:jkatyan@upenn.edu">jkatyan [at] upenn [dot] edu</a>.
+                  </p>
+
+                  <div id="contact-links-desktop" class="desktoponly"></div>
+                </td>
+                <td style="padding:2.5%;width:37%;max-width:37%;vertical-align:middle">
+                  <a href="images/main_page/JayKatyan.JPG">
+                    <img style="width:100%;max-width:100%;object-fit: cover; border-radius: 0%;" alt="profile photo"
+                      src="images/main_page/JayKatyan.JPG" class="hoverZoomLink">
+                  </a>
+
+                  <div id="contact-links-mobile" class="mobileonly"></div>
+
+                </td>
+              </tr>
+            </tbody>
+          </table>
+
+          <!-- RESEARCH -->
+          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+            <tbody>
+              <tr>
+                <td style="padding:20px;padding-bottom:0px;width:100%;vertical-align:middle">
+                  <h2>Research</h2>
+                  <!-- <p style="text-align: justify;">
+                    I am interested in building robotic systems.
+                    Representative papers are <span class="highlight">highlighted</span>.
+                  </p> -->
+                </td>
+              </tr>
+            </tbody>
+          </table>
+
+          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+              <tbody>
+                  <!-- CAN AN LLM FIND ITS WAY AROUND A SPREADSHEET -->
+                  <tr>
+                      <td class="paperimage">
+                          <div class="one" align="center">
+                              <img src='images/main_page/Can_an_LLM_find_its_way_around_a_spreadsheet.jpeg' width=97%>
+                          </div>
+                      </td>
+                      <td style="padding:20px;width:75%;vertical-align:middle;text-align:justify;">
+                          <a href="https://www.computer.org/csdl/proceedings-article/icse/2025/056900a638/251mGdNO8uY" target="_blank">
+                              <span class="papertitle">Can an LLM find its way around a Spreadsheet?</span>
+                          </a>
+                          <p>
+                              Cho-Ting Lee, Andrew Neeser, Shengzhe Xu, <strong>Jay Katyan</strong>, Patrick Cross, Sharanya Pathakota, Marigold Norman, John Simeone, Jaganmohan Chandrasekaran, Naren Ramakrishnan
+                          </p>
+                          <p>
+                            <i>ICSE 2025</i>
+                          </p>
+                          <div class="paper" id="llm_spreadsheet_tog">
+                              <!-- <a href="LINK_TO_WEBSITE_HERE_IF_AVAILABLE">website</a> | -->
+                              <!-- <a href="LINK_TO_ARXIV_HERE_IF_AVAILABLE">arXiv</a> | -->
+                              <!-- <a href="LINK_TO_CODE_HERE_IF_AVAILABLE">code</a> -->
+                          </div>
+                      </td>
+                  </tr>
+              </tbody>
+          </table>
+
+          <!-- PERSONAL PROJECTS -->
+          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+            <tbody>
+              <tr>
+                <td style="padding:20px;padding-bottom:0px;width:100%;vertical-align:middle">
+                  <h2>Personal Projects</h2>
+                  <!-- <p style="text-align: justify;">
+                    I am interested in building robotic systems.
+                    Representative papers are <span class="highlight">highlighted</span>.
+                  </p> -->
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          
+          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+              <tbody>
+                  <!-- IMC PROSPERITY 3 -->
+                  <tr>
+                      <td class="paperimage">
+                          <div class="one" align="center">
+                              <img src='images/main_page/prosperity.jpeg' width=97%>
+                          </div>
+                      </td>
+                      <td style="padding:20px;width:75%;vertical-align:middle;text-align:justify;">
+                          <a href="https://prosperity.imc.com/" target="_blank">
+                              <span class="papertitle">IMC Prosperity 3</span>
+                          </a>
+                          <p align="left">
+                            Three friends and I competed in the 2025 IMC Prosperity Global Trading Competition, the "world's most elaborate trading challenge." Our team, the Hustling Hokies, placed top 15 in the United States and ranked in the top 0.1% out of 12,000+ teams worldwide.
+                          </p>
+                      </td>
+                  </tr>
+
+                  <!-- SAFESOUND -->
+                  <tr>
+                    <td class="paperimage">
+                        <div class="one" align="center">
+                            <img src='images/main_page/hackviolet.jpeg' width=97%>
+                        </div>
+                    </td>
+                    <td style="padding:20px;width:75%;vertical-align:middle;text-align:justify;">
+                        <a href="https://devpost.com/software/safesound-4atsrn" target="_blank">
+                            <span class="papertitle">SafeSound</span>
+                        </a>
+                        <p align="left">
+                          Three friends and I built SafeSound, a real-time audio augmentation tool that uses natural language processing to intelligently filter trauma-inducing language during conversation. Our project won Best Overall at HackViolet 2024, a hackathon hosted at Virginia Tech.                        </div>
+                        </p>
+                    </td>
+                </tr>
+
+                <!-- NANOBRICK -->
+                <tr>
+                  <td class="paperimage">
+                      <div class="one" align="center">
+                          <img src='images/main_page/nanobrick.jpeg' width=97%>
+                      </div>
+                  </td>
+                  <td style="padding:20px;width:75%;vertical-align:middle;text-align:justify;">
+                      <a href="https://website.cs.vt.edu/About/News/cs-VTURCS-winners-2024.html" target="_blank">
+                          <span class="papertitle">NanoBrick</span>
+                      </a>
+                      <p align="left">
+                        In collaboration with students from SUPSI and Alamein International University, our team developed NanoBrick, a mobile application that leverages lightweight segmentation and classification algorithms to efficiently verify LEGO kit contents on resource-constrained devices. Our project won First Place at VTURCS 2024, Virginia Tech's Undergraduate Research in Computer Science symposium.
+                      </p>
+                  </td>
+              </tr>
+              </tbody>
+          </table>
+
+          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+            <tbody>
+              <tr>
+                <td style="padding:0px">
+                  <br>
+                  <p style="text-align:right;font-size:small;">
+                    Modified template from <a style="font-size:small;"
+                      href="https://github.com/jonbarron/jonbarron_website">here</a>.
+                  </p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</body>
+
+</html>
